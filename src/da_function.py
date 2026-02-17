@@ -1,9 +1,10 @@
 import pandas as pd
 
 def load_csv():
-    loan_file_path = './data/input/loan.csv'
-    pay_file_path = './data/input/payment.csv'
-    var_file_path = './data/input/clarity_underwriting_variables.csv'
+    
+    loan_file_path = r"C:\Users\User\OneDrive\Data Analytics Project\data\input\loan.csv"
+    pay_file_path = r"C:\Users\User\OneDrive\Data Analytics Project\data\input\payment.csv"
+    var_file_path = r"C:\Users\User\OneDrive\Data Analytics Project\data\input\clarity_underwriting_variables.csv"
 
     loan_df = pd.read_csv(loan_file_path)
     payment_df = pd.read_csv(pay_file_path)
