@@ -1,4 +1,4 @@
-# Data Analytics - Loan
+# Data Analytics - Loan and Payment Analysis
 
 ## Overview
 This project performs exploratory data analysis (EDA) on loan and payment data to uncover insights and patterns related to lending activities.
