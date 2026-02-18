@@ -2,15 +2,11 @@ import sys
 sys.path.append('./src')
 from da_function import addition
 
-# # from src.da_function import load_csv
-
-# loan_df, payment_df, variables_df = load_csv()
-
 src_val = addition(2, 3)
 
-def test_addition(a, b):
-    return a + b
+def test_addition(a, b, src_val):
+    test_value = a + b
+    print("source value:", src_val, ", Test Value:", test_value, ": Soruce value and test values are equal.")
+    print("Testing successful!")
 
-test_value = test_addition(2, 3)
-
-print("source value:", src_val, test_value)
+test_addition(2, 3, src_val)
