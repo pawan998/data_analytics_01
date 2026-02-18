@@ -39,3 +39,6 @@ def join_loan_tables(df1, df2):
             validate='many_to_one'
         )
     return merged_df
+
+def addition(a, b):
+    return a + b
