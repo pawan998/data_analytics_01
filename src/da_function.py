@@ -41,4 +41,4 @@ def join_loan_tables(df1, df2):
     return merged_df
 
 def addition(a, b):
-    return a + b
+    return (a + b)
